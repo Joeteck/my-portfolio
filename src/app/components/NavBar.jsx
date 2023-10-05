@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import NavLink from './NavLink';
-import DarkModeToggle from './DarkModeToggle';
+// import DarkModeToggle from './DarkModeToggle';
 
 import { Bars3Icon, XMarkIcon,  MoonIcon, SunIcon } from '@heroicons/react/24/solid';
 import MenuBar from './MenuBar';
@@ -50,6 +50,7 @@ const NavBar = () => {
       <div className='flex flex-wrap items-center justify-between mx-auto p-4'>
         <Link href={"/"} className='text-2xl md:text-3xl text-white font-semibold'>
           JOETECK
+          <h3 className='text-[24px] font-light'>IT CONSULT</h3>
         </Link>
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
@@ -76,13 +77,13 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <button className={` w-fit h-fit ${
-        isDarkMode ? 'bg-white text-black' : 'bg-black text-white'
-      } rounded-full px-3 py-2 text-[14px]`}
-      onClick={toggleDarkMode}
-    >
-      {isDarkMode ? <SunIcon className='h-6 w-6'/> : <MoonIcon className='h-6 w-6'/>} 
-    </button>
+          {/* <button className={` w-fit h-fit ${
+              isDarkMode ? 'bg-white text-black' : 'bg-black text-white'
+            } rounded-full px-3 py-2 text-[14px]`}
+            onClick={toggleDarkMode}
+          >
+            {isDarkMode ? <SunIcon className='h-6 w-6'/> : <MoonIcon className='h-6 w-6'/>} 
+          </button> */}
         </div>
       </div>
       <div className='absolute block md:hidden right-0'>

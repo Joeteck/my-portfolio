@@ -30,16 +30,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className=' text-[#ADB7BE] text-lg lg:text-xl text-justify'>
-            As a software developer, I have gained extensive experience in
-            programming, application development, and teaching. In my role as the
-            MUITSA academic head, I taught subjects like data structures,
-            algorithms, Python, and C++, creating personalized lesson plans and
-            study guides to support students&apos; learning. Additionally, I have
-            contributed to software development by testing programs, writing
-            high-quality code, and collaborating with teams to create new
-            applications. With a strong technical skill set and a dedication to
-            delivering quality solutions, I am excited to contribute to future
-            software projects and drive innovation.
+          I am Ibukunoluwa Joel Adeyoju, a passionate software developer based in Accra, Greater Accra. My journey in the world of technology has been driven by a profound love for coding, problem-solving, and a relentless pursuit of innovation.
           </p>
 
           <div>

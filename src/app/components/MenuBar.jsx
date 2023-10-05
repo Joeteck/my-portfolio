@@ -12,7 +12,7 @@ const MenuBar = ({ links }) => {
             </li>
             
         ))}
-        <DarkModeToggle /> {/* Add the dark mode toggle button */}
+        {/* <DarkModeToggle /> Add the dark mode toggle button */}
     </ul>
   )
 }
